@@ -1,3 +1,6 @@
 # Strapi application
 
-A quick description of your strapi application
+Tài khoản đăng nhập Strapi:
+venusplanet457@gmail.com
+Mật khẩu:
+Hominhdat2001
