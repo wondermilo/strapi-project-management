@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hedaotaos",
+      "handler": "hedaotao.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hedaotaos/count",
+      "handler": "hedaotao.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hedaotaos/:id",
+      "handler": "hedaotao.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hedaotaos",
+      "handler": "hedaotao.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hedaotaos/:id",
+      "handler": "hedaotao.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hedaotaos/:id",
+      "handler": "hedaotao.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

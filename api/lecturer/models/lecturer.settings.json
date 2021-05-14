@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lecturers",
+  "info": {
+    "name": "lecturer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "information": {
+      "type": "richtext"
+    },
+    "falcuty": {
+      "type": "string"
+    },
+    "major": {
+      "type": "string"
+    }
+  }
+}

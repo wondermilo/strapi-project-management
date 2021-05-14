@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "name": "Students",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "information": {
+      "type": "richtext"
+    },
+    "typeoftraining": {
+      "type": "string"
+    },
+    "falcuty": {
+      "type": "string"
+    },
+    "major": {
+      "type": "string"
+    },
+    "class": {
+      "type": "string"
+    }
+  }
+}

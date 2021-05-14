@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "majors",
+  "info": {
+    "name": "Majors",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "falcuty": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
